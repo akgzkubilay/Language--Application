@@ -9,8 +9,9 @@ public class InMemoryLangugeReposty implements LanguageRepository{
 
    
     List<Language> languages;
+
     public InMemoryLangugeReposty() {
-        
+
         languages = new ArrayList<Language>();
         languages.add(new Language(1, "Java", 3));
         languages.add(new Language(2, "C#", 2));
